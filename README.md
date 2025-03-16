@@ -11,3 +11,5 @@ Covers the basic programming of VHDL language
 7. Multiplexer
 8. Demultiplexer
 9. D flip-flop
+10. D latch
+11. 16x1 Multiplier 
