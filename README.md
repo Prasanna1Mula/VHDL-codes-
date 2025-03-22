@@ -16,6 +16,8 @@ This repository contains basic VHDL (VHSIC Hardware Description Language) progra
 10. [D Latch](#d-latch)
 11. [16x1 Multiplier](#16x1-multiplier)
 12. [7-Segment Decoder](#7-segment-decoder)
+13. [Half Subtractor](#Half-Subtractor)
+
 
 ---
 
@@ -100,6 +102,12 @@ This program implements a 16x1 multiplier, which multiplies two 16-bit binary nu
 This program implements a 7-segment decoder, which converts a 4-bit binary input into a display pattern for a 7-segment LED.
 
 **Description**: 7-segment decoders are used in display systems to show numeric or alphanumeric characters.
+
+---
+## 13. Half Subtractor 
+This program implements a Half Subtractor, which subtracts two single-bit binary numbers and produces a difference and borrow output.
+
+**Description**: A half subtractor is a basic digital circuit used in arithmetic operations. It has two inputs (A, B) and two outputs (Diff, Borrow). The difference (`Diff`) is the result of the subtraction, and the borrow (`Borrow`) indicates whether a borrow is needed for the subtraction.
 
 ---
 
