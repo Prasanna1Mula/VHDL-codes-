@@ -116,6 +116,7 @@ This program implements a full subtractor, which subtracts two single-bit binary
 
 **Description**: A full subtractor extends the functionality of a half subtractor by including a borrow input (`Bin`), making it suitable for multi-bit subtraction. It has three inputs (A, B, Bin) and two outputs (Diff, Bout). The difference (`Diff`) is the result of the subtraction, and the borrow-out (`Bout`) indicates whether a borrow is needed for the next higher bit.
 
+---
 
 ## How to Use
 1. Compile and simulates the code using a VHDL simulator like ModelSim or Xilinx Vivado.
