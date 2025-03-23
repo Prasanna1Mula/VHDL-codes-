@@ -17,6 +17,7 @@ This repository contains basic VHDL (VHSIC Hardware Description Language) progra
 11. [16x1 Multiplier](#16x1-multiplier)
 12. [7-Segment Decoder](#7-segment-decoder)
 13. [Half Subtractor](#Half-Subtractor)
+14. [Full Subtractor](#Full-Subtractor)
 
 
 ---
@@ -110,6 +111,11 @@ This program implements a Half Subtractor, which subtracts two single-bit binary
 **Description**: A half subtractor is a basic digital circuit used in arithmetic operations. It has two inputs (A, B) and two outputs (Diff, Borrow). The difference (`Diff`) is the result of the subtraction, and the borrow (`Borrow`) indicates whether a borrow is needed for the subtraction.
 
 ---
+## 14. Full Subtractor 
+This program implements a full subtractor, which subtracts two single-bit binary numbers along with a borrow input and produces a difference and borrow output.
+
+**Description**: A full subtractor extends the functionality of a half subtractor by including a borrow input (`Bin`), making it suitable for multi-bit subtraction. It has three inputs (A, B, Bin) and two outputs (Diff, Bout). The difference (`Diff`) is the result of the subtraction, and the borrow-out (`Bout`) indicates whether a borrow is needed for the next higher bit.
+
 
 ## How to Use
 1. Compile and simulates the code using a VHDL simulator like ModelSim or Xilinx Vivado.
