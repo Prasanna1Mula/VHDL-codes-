@@ -18,6 +18,7 @@ This repository contains basic VHDL (VHSIC Hardware Description Language) progra
 12. [7-Segment Decoder](#7-segment-decoder)
 13. [Half Subtractor](#Half-Subtractor)
 14. [Full Subtractor](#Full-Subtractor)
+15. [Up-Down Counter](#UpDown-Counter) 
 
 
 ---
@@ -117,7 +118,12 @@ This program implements a full subtractor, which subtracts two single-bit binary
 **Description**: A full subtractor extends the functionality of a half subtractor by including a borrow input (`Bin`), making it suitable for multi-bit subtraction. It has three inputs (A, B, Bin) and two outputs (Diff, Bout). The difference (`Diff`) is the result of the subtraction, and the borrow-out (`Bout`) indicates whether a borrow is needed for the next higher bit.
 
 ---
+## 15. UpDown Counter 
+This program implements a configurable N-bit up-down counter with asynchronous reset and parallel load capability.
 
+**Description** : A versatile bidirectional counter that can count up or down based on the up control signal. Features asynchronous reset (reset) for immediate initialization. Includes parallel load functionality (load and data_in) to preset the counter value. Configurable bit-width via the WIDTH generic parameter (default: 4 bits)
+
+Outputs the current count value on count (WIDTH bits)
 ## How to Use
 1. Compile and simulates the code using a VHDL simulator like ModelSim or Xilinx Vivado.
 
