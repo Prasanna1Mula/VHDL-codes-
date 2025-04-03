@@ -18,7 +18,7 @@ This repository contains basic VHDL (VHSIC Hardware Description Language) progra
 12. [7-Segment Decoder](#7-segment-decoder)
 13. [Half Subtractor](#Half-Subtractor)
 14. [Full Subtractor](#Full-Subtractor)
-15. [Up-Down Counter](#UpDown-Counter) 
+15. [Up-Down Counter (Async reset)](#UpDown-Counter-(Async-reset)) 
 
 
 ---
