@@ -121,9 +121,7 @@ This program implements a full subtractor, which subtracts two single-bit binary
 ## 15. UpDown Counter 
 This program implements a configurable N-bit up-down counter with asynchronous reset and parallel load capability.
 
-**Description** : A versatile bidirectional counter that can count up or down based on the up control signal. Features asynchronous reset (reset) for immediate initialization. Includes parallel load functionality (load and data_in) to preset the counter value. Configurable bit-width via the WIDTH generic parameter (default: 4 bits)
-
-Outputs the current count value on count (WIDTH bits)
+**Description** : A versatile bidirectional counter that can count up or down based on the up control signal. Features asynchronous reset (reset) for immediate initialization. Includes parallel load functionality (load and data_in) to preset the counter value. Configurable bit-width via the WIDTH generic parameter (default: 4 bits). Outputs the current count value on count (WIDTH bits)
 ## How to Use
 1. Compile and simulates the code using a VHDL simulator like ModelSim or Xilinx Vivado.
 
