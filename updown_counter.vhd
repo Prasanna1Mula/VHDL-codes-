@@ -11,13 +11,13 @@ Port (
   rest : IN STD_LOGIC; 
   up : IN STD_LOGIC; 
   load : IN STD_LOGIC;
-  data_in : OUT STD_LOGIC_VECTOR(WIDTH-1 downto 0);
-  count : OUT STD_LOGIC_VECTOR(WIDTH-1 downto 0);
+  data_in : OUT STD_LOGIC_VECTOR(WIDTH-3 downto 0);
+  count : OUT STD_LOGIC_VECTOR(WIDTH-3 downto 0);
   );
 end updown_counter;
 
 architecture Behavioral of updown_counter is
-  signal counter_reg : UNSIGNED(WIDTH-1 downto 0);
+  signal counter_reg : UNSIGNED(WIDTH-3 downto 0);
 begin 
   process(clk, reset)
   begin 
