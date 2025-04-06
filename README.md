@@ -125,6 +125,8 @@ This program implements a configurable N-bit up-down counter with asynchronous r
 
 **Description** : A versatile bidirectional counter that can count up or down based on the up control signal. Features asynchronous reset (reset) for immediate initialization. Includes parallel load functionality (load and data_in) to preset the counter value. Configurable bit-width via the WIDTH generic parameter (default: 4 bits). Outputs the current count value on count (WIDTH bits)
 
+---
+
 ## 16. JK Flip Flop 
 This program implements a positive-edge triggered JK flip-flop with asynchronous reset.
 
@@ -134,15 +136,18 @@ This program implements a positive-edge triggered JK flip-flop with asynchronous
 - Output (`Q`) changes on the rising clock edge based on J and K inputs
 - Implements all four modes: Hold (00), Reset (01), Set (10), Toggle (11)
 
+---
+
 ## 17. T Flip Flop 
 This program implements a positive-edge triggered T flip-flop with asynchronous reset.
 
 **Description**:
--The T flip-flop is a simplified version that toggles its output when the T input is high
--Features asynchronous reset (reset) for immediate initialization
--Output (Q) toggles on each rising clock edge when T is high
--Commonly used in frequency dividers and counters
+- The T flip-flop is a simplified version that toggles its output when the T input is high
+- Features asynchronous reset (reset) for immediate initialization
+- Output (Q) toggles on each rising clock edge when T is high
+- Commonly used in frequency dividers and counters
 
+---
 
 ## How to Use
 1. Compile and simulates the code using a VHDL simulator like ModelSim or Xilinx Vivado.
