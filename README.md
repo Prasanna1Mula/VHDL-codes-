@@ -148,6 +148,16 @@ This program implements a positive-edge triggered T flip-flop with asynchronous 
 - Commonly used in frequency dividers and counters
 
 ---
+## 18. SR Latch
+This program implements a basic SR (Set-Reset) latch with active-high inputs.
+
+**Description**:
+- The SR Latch is the fundamental bistable memory element in digital electronics
+- Uses cross-coupled NOR or NAND gates to maintain state
+- Implements basic set/reset functionality without a clock signal
+- Outputs both Q (true) and Q_bar (complementary) signals
+
+---
 
 ## How to Use
 1. Compile and simulates the code using a VHDL simulator like ModelSim or Xilinx Vivado.
