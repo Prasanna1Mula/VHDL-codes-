@@ -21,6 +21,7 @@ This repository contains basic VHDL (VHSIC Hardware Description Language) progra
 15. [Up-Down Counter (Async reset)](#UpDown-Counter-(Async-reset))
 16. [JK Flip Flop](#J-K-FlipFlop)
 17. [T Flip Flop](#T-Flip-Flop)
+18. [SR Latch](#SR-Latch)
 
 
 ---
