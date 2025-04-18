@@ -23,6 +23,8 @@ This repository contains basic VHDL (VHSIC Hardware Description Language) progra
 17. [T Flip Flop](#T-Flip-Flop)
 18. [SR Latch](#SR-Latch)
 19. [BCD Counter](#BCD-Counter)
+20. [PIPO](#PIPO)
+21. [SIPO](#SIPO)
 
 
 ---
@@ -160,6 +162,13 @@ This program implements a basic SR (Set-Reset) latch with active-high inputs.
 - Outputs both Q (true) and Q_bar (complementary) signals
 
 ---
+
+## 19. BCD Counter 
+This program is to implement a BCD Counter 
+
+**Description**: This is a Binary-Coded Decimal (BCD) Counter that counts from 0 (0000) to 9 (1001) in binary and resets back to 0. Commonly used in digital clocks and displays, it outputs decimal digits in 4-bit binary form.
+
+Ideal for use with seven-segment displays or digital systems requiring decimal output
 
 ## How to Use
 1. Compile and simulates the code using a VHDL simulator like ModelSim or Xilinx Vivado.
