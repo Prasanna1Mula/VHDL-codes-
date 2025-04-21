@@ -25,6 +25,7 @@ This repository contains basic VHDL (VHSIC Hardware Description Language) progra
 19. [BCD Counter](#BCD-Counter)
 20. [PIPO](#PIPO)
 21. [SIPO](#SIPO)
+22. [Mealy FSM ( Finite State Machine)](#MealyFSM)
 
 
 ---
