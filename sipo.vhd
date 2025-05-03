@@ -19,7 +19,7 @@ if clear='1' then
 Q <= "0000";
 elsif (CLK'event and CLK='1') then 
 Q(3 downto 1) <= Q(2 downto 0);
-Q(0) <= Input-Data;
+Q(0) <= Input_Data;
 end if;
 end process;
 end behavioral;
